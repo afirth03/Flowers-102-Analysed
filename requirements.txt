@@ -5,5 +5,5 @@ torchvision
 matplotlib
 torchviz
 
-Many of these are available using google cola however torchviz can be installed using
+Many of these are available using google colab however torchviz can be installed using
 "%pip install torchviz"
