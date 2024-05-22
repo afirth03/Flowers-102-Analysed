@@ -1,9 +1,17 @@
+NEEDED IMPORTS/INSTALLS:
+
 pandas
 numpy
+PyTorch
 torch
 torchvision
-matplotlib
-torchviz
 
-Many of these are available using google colab however torchviz can be installed using
-"%pip install torchviz"
+
+'IMLO Testing' contains only the necessary code to test the classification accuracy.
+'IMLO Exam Model' contains everything to train and test the model.
+
+
+The folder contains both .py and .ipynb files. Both are viable to use.
+
+
+In order to test this open 'IMLO Testing.ipynb' or 'IMLO Testing.py' and run all the cells sequentially if using ipynb otherwise just run the code using py. This will load all the needed imports, the CNN Model and load in the saved model that was trained named 'cnn_flowers102.pth'
